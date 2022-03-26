@@ -16,4 +16,5 @@ var server=http.createServer(function(req, res){
         res.end('Invalid Request!');
 });
 
-server.listen(8080)
+server.listen(8080);
+console.log('Node js server at port 8080 is running...')
