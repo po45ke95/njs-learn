@@ -7,7 +7,7 @@ var server = http.createServer(function (req, res) {
         res.end();
     }
     else{
-        res.write(JSON.stringify({message: 'Invalid API Path'}));
+        res.write(JSON.stringify({message: 'Invalid Request'}));
         res.end();
     }
 });
